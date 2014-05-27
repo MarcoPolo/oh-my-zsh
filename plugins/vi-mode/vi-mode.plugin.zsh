@@ -14,9 +14,8 @@ function zle-keymap-select zle-line-init zle-line-finish {
   zle -R
 }
 
-zle -N zle-line-init
 zle -N zle-line-finish
-zle -N zle-keymap-select
+#zle -N zle-keymap-select
 
 bindkey -v
 
